@@ -1,0 +1,99 @@
+.app-container {
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.add-contact-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-contact-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex-grow: 1;
+}
+
+.add-contact-form button {
+  padding: 10px 15px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.add-contact-form button:hover {
+  background-color: #449d44;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 8px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background-color: white;
+}
+.contact-item input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.contact-name {
+  font-weight: bold;
+  margin-right: 10px;
+  flex-grow: 1;
+  color: #000; /* Changed to black */
+}
+.contact-phone {
+  flex-grow: 1;
+  color: #000; /* Changed to black */
+}
+
+.contact-item button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.contact-item button:nth-child(1) {
+  background-color: #5bc0de;
+  color: white;
+}
+.contact-item button:nth-child(1):hover {
+  background-color: #46b8da;
+}
+.contact-item button:nth-child(2) {
+  background-color: #d9534f;
+  color: white;
+}
+.contact-item button:nth-child(2):hover {
+  background-color: #d43f3a;
+}
+.contact-item .button-container {
+  display: flex;
+  gap: 5px;
+}
